@@ -120,18 +120,52 @@
 <option value="Dogan">Dogan</option>
 <option value="Kartal">Kartal</option>
 </optgroup>
-
-<option value="Volkswagen">Volkswagen</option>
 </select>
+</div>
+<br><br>
+<!-- textarea element -->
+<div>
+    <label for="comment">Comment:</label>
+    <br>
+<textarea
+style="resize:none"
+name="Your_comment" 
+id="comment"
+placeholder="Enter your comment here" 
+readonly
+cols="50" 
+rows="10">
+</textarea>
+</div>
+<br>
+<!-- datalist element -->
 
+<div>
+    <p>Please select your browser:</p>
+    <input type="text" list ="browser" name=""browser placeholder="Enter your browser...">
+    <datalist id="browser">
+        <option value="Chrome">Chrome</option>
+        <option value="Edge">Edge</option>
+        <option value="Opera">Opera</option>
+        <option value="Safari">Safari</option>
+    </datalist>   
+</div>
+<br><br>
+<!-- fieldset ve legend elementleri -->
+<div>
+    <fieldset>
+        <legend>Personel Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+
+    </fieldset>
+</div>
 </div>
     <br><br><br>
     <input type="submit" value="submit" >
 
 
 
-   </form>
-
-
+    </form>
 </body>
 </html>
